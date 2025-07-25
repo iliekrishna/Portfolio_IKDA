@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ilie Krishna</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="/icon favorito.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="icon favorito.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Do Backend ao Front-end</b> Desenvolvendo Soluções</h1>
+      <p>Ilie Krishna, São Paulo - Sp, Desenvolvedor.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/iliekrishna" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/ilie-krishna-4a9009231" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="" target="_blank">
+            <i class="menu__icon bi bi-instagram" href="https://www.instagram.com/iliemartins?igsh=MWRwbjlwY2luMXFtZw==" target="_blank"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Logo java">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="Logo C Sharp">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="Logo Android Studio">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Logo HTML5">
+      </li>
+         <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Logo JavaScript">
+      </li>
+      </li>
+         <li class="technologies__item">
+        <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Logo CSS3">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/vortexSecretary.png" alt="Capa vortexSecretary">
+        <div class="card__body">
+          <h3 class="card__title">Vortex Secretary</h3>
+          <p class="card__description">Aplicativo Desktop para secretaria.</p>
+          <ul class="card__list">
+            <li class="card__item">Administrar solicitações de documentos;</li>
+            <li class="card__item">Resposta a alunos;</li>
+            <li class="card__item">Abrir ou fechar solicitações.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="Logo C Sharp">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="Logo SQL">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+         <a href="https://github.com/iliekrishna/Vortex-Secretary" target="_blank" class="btn">
+            <span>Repositório</span>
+        </a> 
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/acordasocial.png" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">AcordaSocial</h3>
+          <p class="card__description">Rede social para serviços voluntários</p>
+          <ul class="card__list">
+            <li class="card__item">Solicitações de trabalhos voluntários;</li>
+            <li class="card__item">Registro de inscrições;</li>
+            <li class="card__item">Contato com o voluntário.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="Logo Android Studio">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="Logo Firebase">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Logo Java">
+            </li>
+           
+            
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+             <a href="https://github.com/iliekrishna/AcordaSocial" target="_blank" class="btn">
+            <span>Repositório</span>
+            </a> 
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/vortexWeb.png" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Vortex Web</h3>
+          <p class="card__description">Canal de solicitação de documentos para alunos da FATEC.</p>
+          <ul class="card__list">
+            <li class="card__item">Listagem de solicitações;</li>
+            <li class="card__item">Tickets de ajuda;</li>
+            <li class="card__item">Solicitação de documentos.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Logo CSS3">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Logo JavaScript">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+                 <a href="https://github.com/iliekrishna/Vortex-Web-Forms" target="_blank" class="btn">
+            <span>Repositório</span>
+                </a>   
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/iliekrishna">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="assets/images/avatar.jpg" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Olá! Me chamo Ilie Krishna, sou apaixonado por tecnologia e atualmente estou cursando Análise e Desenvolvimento de Sistemas na FATEC Guarulhos.<br>
+<br>Minha jornada na programação começou com Java, que foi minha primeira linguagem de contato e se tornou a minha favorita. Desde então, venho me aprofundando no desenvolvimento backend, área na qual estou focado, mas também possuo conhecimentos em frontend, o que me permite ter uma visão completa do desenvolvimento de aplicações.
+<br>
+<br>
+Estou sempre em busca de novos aprendizados, desafios e formas de transformar ideias em soluções através do código.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário </span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/ilie-krishna-4a9009231" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="https://drive.google.com/file/d/1a7Q_POLnBQiS0uhGY-AveppfylCbLcJl/view?usp=sharing">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>Abril 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>FATEC Guarulhos</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Tecnólogo - Graduação</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Desenvolvedor</h4>
+          <span>FATEC Guarulhos. Fev 2024 - Atualmente</span>
+          <span>Atualmente estou trabalhando com mais colegas da faculdade em um sistema para a secretária da faculdade
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Desenvolvimento em C# Windows Form;</li>
+            <li class="about__item">Banco de dados | SQL;</li>
+            <li class="about__item">Produção de ferramenta para a faculdade.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Jun 2025. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Front-end do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Jul 2025. 75h.
+              </p>
+              <p>
+                Curso da DIO em parceria com a RiHappy com intuito de aprender front-end do zero.
+              </p>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/iliekrishna" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/ilie-krishna-4a9009231" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/iliemartins?igsh=MWRwbjlwY2luMXFtZw==" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:elidianaandrade@outlook.com">
+      <button class="btn btn--primary">
+        <span class="email">iliekrishna86@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido para fins profissionais feito por
+
+      <a href="https://github.com/iliekrishna" target="_blank">Ilie Krishna</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
